@@ -12,17 +12,21 @@ Lab 3: What goes into the AI is image and user input. When first uploading an im
 
 <img width="487" height="189" alt="Screenshot 2026-05-10 at 10 57 57 PM" src="https://github.com/user-attachments/assets/4312acf4-4e2f-4a8f-a49e-fd68411d0434" />
 
+
 Lab 3: If the AI is unclear of what location needs to be used, the user can input the desired location among the map when the AI asks, “Please specify the location on this map.”
 
 <img width="481" height="42" alt="Screenshot 2026-05-10 at 10 58 23 PM" src="https://github.com/user-attachments/assets/e607e4fa-3760-4225-ba7b-74d694814621" />
+
 
 Lab 3: The AI will then analyze the image in a for loop by finding the image’s filename and applying the analysis into each question provided in a list of pre-written questions.
 
 <img width="626" height="436" alt="Screenshot 2026-05-10 at 10 58 40 PM" src="https://github.com/user-attachments/assets/4c5f9f3f-5bc7-44c8-a77f-d42a7b6fd49e" />
 
+
 Lab 1: Finally, the program enters into a continuous loop where the user may ask any follow-up question. The algorithm we used specifically uses the AI’s previous answer, rather than the source image itself, as we found it somehow provided more reliable and accurate results.
 
 <img width="618" height="95" alt="Screenshot 2026-05-10 at 10 58 51 PM" src="https://github.com/user-attachments/assets/256c38e0-8799-48d1-9a4f-d6c12e7abadd" />
+
 
 (4) FAILURE CASE — One specific failure, with a reference to the lab output that showed it is possible.
 One failure case that was most prominent in our lab was the AI not being able to provide real-time info about our location. It ended up hallucinating lots of info, such as street names, the land owners, the city where the land is located, etc. This actually led to us needing to change the scope of our project, as we discovered the AI’s limitations would not allow us to implement our original plan as envisioned.
@@ -30,6 +34,7 @@ One failure case that was most prominent in our lab was the AI not being able to
 <img width="788" height="187" alt="Screenshot 2026-05-10 at 10 59 25 PM" src="https://github.com/user-attachments/assets/7c9d312a-b306-4668-95ed-a6efaa698f27" />
 
 <img width="781" height="436" alt="Screenshot 2026-05-10 at 10 59 37 PM" src="https://github.com/user-attachments/assets/43cb3938-86b2-44ff-902d-ada8f5c7e3d9" />
+
 
 For example, originally, when we had the user text input and asked about the exact coordinates of a location. The AI was not able to correctly identify the location of the coordinates. Instead it would spit out random information unrelated to the location we selected. Our selected location is nowhere near the Berryessa neighborhood, nor Senter Road or Monterey Road. It would give different random locations as it cycled through the civic questions.
 
